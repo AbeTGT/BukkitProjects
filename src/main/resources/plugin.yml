@@ -1,0 +1,5 @@
+name: VillagerCureEvent
+version: '${project.version}'
+main: me.abetgt.villagercureevent.VillagerCureHandler
+authors: [ AbeTGT ]
+description: An event API that will trigger whenever a villager gets cured.
