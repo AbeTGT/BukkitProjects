@@ -27,4 +27,17 @@ public final class VillagerCureEvent extends EntityEvent implements Cancellable 
      * @return Location (org.bukkit.Location) | Entity's location
      */
     public Location getLocation() {return eventLocationCured;}
+    
+        public static HandlerList getHandlerList(){
+        return handlers;
+    }
+    public HandlerList getHandlers(){
+        return handlers;
+    }
+    public boolean isCancelled(){
+        return this.cancel;
+    }
+    public void setCancelled(boolean cancel){
+        this.cancel = cancel;
+    }
 }
